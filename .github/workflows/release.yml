@@ -13,13 +13,13 @@ jobs:
       id-token: write
 
     steps:
-      - uses: actions/checkout@b4ffde65f69735febad8c6182f91ea7f1d183b7b
+      - uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@fe02b3b
+      - uses: pnpm/action-setup@v4
         with:
           version: 10.33.0
 
-      - uses: actions/setup-node@1a4442caab129478691015c6976ebb13592f26cc
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: "pnpm"
