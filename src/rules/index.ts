@@ -5,12 +5,15 @@ import { forwardrefDisplayNameRule } from "./forwardrefDisplayName";
 import { githubActionsPermissionsRule } from "./githubActionsPermissions";
 import { indexMustReexportDefaultRule } from "./indexMustReexportDefault";
 import { interfacePrefixIRule } from "./interfacePrefixI";
+import { noCrossFeatureImportsRule } from "./noCrossFeatureImports";
 import { noDarkModeClassesRule } from "./noDarkModeClasses";
 import { noInlineJsxFunctionsRule } from "./noInlineJsxFunctions";
 import { noJsxComputationRule } from "./noJsxComputation";
 import { noStateInComponentBodyRule } from "./noStateInComponentBody";
+import { noUntranslatedJsxTextRule } from "./noUntranslatedJsxText";
 import { packageJsonExactDepsRule } from "./packageJsonExactDeps";
 import { propsMustBeVisualRule } from "./propsMustBeVisual";
+import { queryKeysMustBeConstantRule } from "./queryKeysMustBeConstant";
 import { reactImportNamedRule } from "./reactImportNamed";
 import { storiesRequireDefaultExportRule } from "./storiesRequireDefaultExport";
 
@@ -29,5 +32,8 @@ export const rules = {
   "props-must-be-visual": propsMustBeVisualRule,
   "react-import-named": reactImportNamedRule,
   "package-json-exact-deps": packageJsonExactDepsRule,
-  "github-actions-permissions": githubActionsPermissionsRule
+  "github-actions-permissions": githubActionsPermissionsRule,
+  "no-untranslated-jsx-text": noUntranslatedJsxTextRule,
+  "query-keys-must-be-constant": queryKeysMustBeConstantRule,
+  "no-cross-feature-imports": noCrossFeatureImportsRule
 };

@@ -13,5 +13,8 @@ export const recommendedRules = {
   "react-component-architecture/props-must-be-visual": "warn",
   "react-component-architecture/react-import-named": "error",
   "react-component-architecture/package-json-exact-deps": "error",
-  "react-component-architecture/github-actions-permissions": "error"
+  "react-component-architecture/github-actions-permissions": "error",
+  "react-component-architecture/no-untranslated-jsx-text": "warn",
+  "react-component-architecture/query-keys-must-be-constant": "error",
+  "react-component-architecture/no-cross-feature-imports": "error"
 } as const;
