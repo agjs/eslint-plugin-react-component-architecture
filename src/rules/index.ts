@@ -5,6 +5,7 @@ import { forwardrefDisplayNameRule } from "./forwardrefDisplayName";
 import { githubActionsPermissionsRule } from "./githubActionsPermissions";
 import { indexMustReexportDefaultRule } from "./indexMustReexportDefault";
 import { interfacePrefixIRule } from "./interfacePrefixI";
+import { maxHooksPerFileRule } from "./maxHooksPerFile";
 import { noCrossFeatureImportsRule } from "./noCrossFeatureImports";
 import { noDarkModeClassesRule } from "./noDarkModeClasses";
 import { noInlineJsxFunctionsRule } from "./noInlineJsxFunctions";
@@ -35,5 +36,6 @@ export const rules = {
   "github-actions-permissions": githubActionsPermissionsRule,
   "no-untranslated-jsx-text": noUntranslatedJsxTextRule,
   "query-keys-must-be-constant": queryKeysMustBeConstantRule,
-  "no-cross-feature-imports": noCrossFeatureImportsRule
+  "no-cross-feature-imports": noCrossFeatureImportsRule,
+  "max-hooks-per-file": maxHooksPerFileRule
 };

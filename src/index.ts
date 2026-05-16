@@ -9,6 +9,7 @@ import { forwardrefDisplayNameRule } from "./rules/forwardrefDisplayName";
 import { githubActionsPermissionsRule } from "./rules/githubActionsPermissions";
 import { indexMustReexportDefaultRule } from "./rules/indexMustReexportDefault";
 import { interfacePrefixIRule } from "./rules/interfacePrefixI";
+import { maxHooksPerFileRule } from "./rules/maxHooksPerFile";
 import { noDarkModeClassesRule } from "./rules/noDarkModeClasses";
 import { noInlineJsxFunctionsRule } from "./rules/noInlineJsxFunctions";
 import { noJsxComputationRule } from "./rules/noJsxComputation";
@@ -47,6 +48,7 @@ export {
   githubActionsPermissionsRule,
   indexMustReexportDefaultRule,
   interfacePrefixIRule,
+  maxHooksPerFileRule,
   noDarkModeClassesRule,
   noInlineJsxFunctionsRule,
   noJsxComputationRule,
